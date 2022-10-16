@@ -60,11 +60,16 @@ public class CategoryServicio {
     
     
     public boolean deleteCategory(int categoryId){
-        Boolean d=getCategory(categoryId).map(category -> {
-            categoryRepository.delete(category);
-            return true;
-        }).orElse(false);
-        return d;
+      Optional<Category> category = categoryRepository.getCategory(categoryId);
+        if (category.isEmpty()) {
+            return false;
+        } else {
+            categoryRepository.delete(category.get());
+            return true;   
+    
+    
+    
+    }
     }
     
     

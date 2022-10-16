@@ -59,10 +59,12 @@ public class MessageServicio {
     
     
     public boolean deleteMessage(int messageId){
-        Boolean d=getMessage(messageId).map(message -> {
-            messageRepository.delete(message);
+        Optional<Message> message = messageRepository.getMessage(messageId);
+        if (message.isEmpty()) {
+            return false;
+        } else {
+            messageRepository.delete(message.get());
             return true;
-        }).orElse(false);
-        return d;
     }
+}
 }

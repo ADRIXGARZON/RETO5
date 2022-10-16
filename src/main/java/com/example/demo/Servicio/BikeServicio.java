@@ -72,10 +72,14 @@ public class BikeServicio {
     }
     
     public boolean deleteBike(int bikeId){
-        Boolean d=getBike(bikeId).map(bike -> {
-            bikeRepository.delete(bike);
+        Optional<Bike> bike = bikeRepository.getBike(bikeId);
+        if (bike.isEmpty()) {
+            return false;
+        } else {
+            bikeRepository.delete(bike.get());
             return true;
-        }).orElse(false);
-        return d;
+        
     }
+         } 
 }
+

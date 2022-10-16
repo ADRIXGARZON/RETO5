@@ -71,12 +71,15 @@ public class ReservationServicio {
     }
     
     public boolean deleteReservation(int reservationId){
-        Boolean d=getReservation(reservationId).map(reservation -> {
-            reservationRepository.delete(reservation);
+       Optional<Reservation> reservation = reservationRepository.getReservation(reservationId);
+        if (reservation.isEmpty()) {
+            return false;
+        } else {
+            reservationRepository.delete(reservation.get());
             return true;
-        }).orElse(false);
-        return d;
     }
+
+
     //////////////5 rpo/////
     
     public Status getReservationStatusReport(){
