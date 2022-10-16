@@ -4,7 +4,7 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.entities.Client;
+import com.example.demo.Entities.Client;
 
 /**
  *

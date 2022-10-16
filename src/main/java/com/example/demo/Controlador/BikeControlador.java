@@ -4,7 +4,7 @@
  */
 package com.example.demo.Controlador;
 
-import com.example.demo.entities.Bike;
+import com.example.demo.Entities.Bike;
 import com.example.demo.Servicio.BikeServicio;
 import java.util.List;
 import java.util.Optional;

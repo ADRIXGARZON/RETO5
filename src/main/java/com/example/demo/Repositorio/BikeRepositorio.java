@@ -4,8 +4,8 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.Interface.BikeInterface;
-import com.example.demo.entities.Bike;
+import com.example.demo.CrudRepository.BikeInterface;
+import com.example.demo.Entities.Bike;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -4,7 +4,7 @@
  */
 package com.example.demo.Servicio;
 
-import com.example.demo.entities.Reservation;
+import com.example.demo.Entities.Reservation;
 import com.example.demo.Repositorio.CountClient;
 import com.example.demo.Repositorio.ReservationRepositorio;
 import java.text.ParseException;

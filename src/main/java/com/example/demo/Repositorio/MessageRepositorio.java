@@ -4,8 +4,8 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.Interface.MessageInterface;
-import com.example.demo.entities.Message;
+import com.example.demo.CrudRepository.MessageInterface;
+import com.example.demo.Entities.Message;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -4,7 +4,7 @@
  */
 package com.example.demo.Controlador;
 
-import com.example.demo.entities.Message;
+import com.example.demo.Entities.Message;
 import com.example.demo.Servicio.MessageServicio;
 import java.util.List;
 import java.util.Optional;

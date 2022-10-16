@@ -4,7 +4,7 @@
  */
 package com.example.demo.Servicio;
 
-import com.example.demo.entities.Message;
+import com.example.demo.Entities.Message;
 import com.example.demo.Repositorio.MessageRepositorio;
 import java.util.List;
 import java.util.Optional;

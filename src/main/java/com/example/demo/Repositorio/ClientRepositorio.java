@@ -4,8 +4,8 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.Interface.ClientInterface;
-import com.example.demo.entities.Client;
+import com.example.demo.CrudRepository.ClientInterface;
+import com.example.demo.Entities.Client;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

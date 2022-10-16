@@ -4,7 +4,7 @@
  */
 package com.example.demo.Servicio;
 
-import com.example.demo.entities.Category;
+import com.example.demo.Entities.Category;
 import com.example.demo.Repositorio.CategoryRepositorio;
 
 import java.util.List;

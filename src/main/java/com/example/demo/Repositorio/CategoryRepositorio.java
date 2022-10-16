@@ -4,8 +4,8 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.Interface.CategoryInterface;
-import com.example.demo.entities.Category;
+import com.example.demo.CrudRepository.CategoryInterface;
+import com.example.demo.Entities.Category;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

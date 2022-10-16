@@ -4,7 +4,7 @@
  */
 package com.example.demo.Controlador;
 
-import com.example.demo.entities.Reservation;
+import com.example.demo.Entities.Reservation;
 import com.example.demo.Repositorio.CountClient;
 import com.example.demo.Servicio.ReservationServicio;
 import com.example.demo.Servicio.Status;

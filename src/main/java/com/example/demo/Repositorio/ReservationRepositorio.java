@@ -4,9 +4,9 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.Interface.ReservationInterface;
-import com.example.demo.entities.Client;
-import com.example.demo.entities.Reservation;
+import com.example.demo.CrudRepository.ReservationInterface;
+import com.example.demo.Entities.Client;
+import com.example.demo.Entities.Reservation;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

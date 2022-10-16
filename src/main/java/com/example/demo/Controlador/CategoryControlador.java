@@ -4,7 +4,7 @@
  */
 package com.example.demo.Controlador;
 
-import com.example.demo.entities.Category;
+import com.example.demo.Entities.Category;
 import com.example.demo.Servicio.CategoryServicio;
 import java.util.List;
 import java.util.Optional;
