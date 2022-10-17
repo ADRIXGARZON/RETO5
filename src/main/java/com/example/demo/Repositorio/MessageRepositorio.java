@@ -4,7 +4,7 @@
  */
 package com.example.demo.Repositorio;
 
-import com.example.demo.CrudRepository.MessageInterface;
+import com.example.demo.CrudRepository.MessagesInterfaces;
 import com.example.demo.Entities.Message;
 import java.util.List;
 import java.util.Optional;
@@ -19,7 +19,7 @@ import org.springframework.stereotype.Repository;
 
 public class MessageRepositorio {
     @Autowired
-    private MessageInterface messageCrudRepository;
+    private MessagesInterfaces messageCrudRepository;
     
        public List<Message> getAll(){
         return (List<Message>) messageCrudRepository.findAll();
